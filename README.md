@@ -1,8 +1,6 @@
 # ProjectToasts
 
 # Toasty
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14) [![](https://jitpack.io/v/GrenderG/Toasty.svg)](https://jitpack.io/#GrenderG/Toasty) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Toasty-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5102)
-
 <div align="center">
 	<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/web_hi_res_512.png" width="128">
 </div>
@@ -94,7 +92,10 @@ shouldTint).show();
 
 ## Screenshots
 
-<img src="images/screenshot2.jpeg" alt="CityWeather" width="200"/>
+<img src="images/Screenshot1.png" alt="Image" width="200"/>		<img src="images/Screenshot2.png" alt="Image" width="200"/>
+<img src="images/Screenshot3.png" alt="Image" width="200"/>		<img src="images/Screenshot4.png" alt="Image" width="200"/>
+
+
 
 
 
