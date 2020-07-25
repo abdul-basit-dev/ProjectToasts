@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#EAF0F1">
+    <include layout="@layout/my_tool_bar"
+        android:id="@+id/mToolbar"/>
+
+    <Button
+        android:id="@+id/btn_Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Birth Day!"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:visibility="invisible"
+       />
+
+
+    <Button
+
+        android:id="@+id/btn_Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Button!"
+        android:background="#D63031"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <Button
+        android:id="@+id/btn_Success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success Button!"
+        android:background="#26ae60"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <Button
+        android:id="@+id/btn_Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Button!"
+        android:background="#3498DB"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <Button
+        android:id="@+id/btn_Warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning button!"
+        android:background="#F3B431"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+    <Button
+        android:id="@+id/btn_Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Button!"
+        android:background="#777E8B"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+
+</LinearLayout>
